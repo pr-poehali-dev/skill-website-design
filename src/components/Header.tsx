@@ -55,15 +55,11 @@ export default function Header() {
           onClick={() => handleNavClick('#home')}
           className="flex items-center gap-3 group"
         >
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-edu-orange to-edu-yellow flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-            <Icon name="GraduationCap" size={22} className="text-white" />
-          </div>
-          <div className="flex flex-col leading-tight">
-            <span className="font-display font-800 text-lg text-edu-dark leading-none" style={{ fontFamily: 'Montserrat', fontWeight: 800 }}>
-              Навык 2.0
-            </span>
-            <span className="text-xs text-muted-foreground font-medium">Образование будущего</span>
-          </div>
+          <img
+            src="https://cdn.poehali.dev/projects/90b19190-9052-4574-8bf9-c0a68b0e224d/bucket/1a270972-0dae-4e88-a2da-699ff77c4f78.jpg"
+            alt="Навык 2.0"
+            className="h-10 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+          />
         </button>
 
         {/* Desktop Nav */}

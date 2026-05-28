@@ -48,15 +48,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-edu-orange to-edu-yellow flex items-center justify-center">
-                <Icon name="GraduationCap" size={22} className="text-white" />
-              </div>
-              <span
-                className="font-display font-900 text-xl text-white"
-                style={{ fontFamily: 'Montserrat', fontWeight: 900 }}
-              >
-                Навык 2.0
-              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/90b19190-9052-4574-8bf9-c0a68b0e224d/bucket/1a270972-0dae-4e88-a2da-699ff77c4f78.jpg"
+                alt="Навык 2.0"
+                className="h-10 w-auto object-contain brightness-0 invert"
+              />
             </div>
             <p className="text-white/40 text-sm leading-relaxed mb-6 max-w-xs">
               Современная образовательная платформа для тех, кто хочет расти профессионально и достигать новых высот.
