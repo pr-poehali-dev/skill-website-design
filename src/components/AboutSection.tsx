@@ -81,7 +81,7 @@ export default function AboutSection() {
             >
               Почему выбирают
               <br />
-              <span className="gradient-text">EduPro?</span>
+              <span className="gradient-text">Навык 2.0?</span>
             </h2>
           </div>
           <p className="reveal opacity-0-init text-white/50 text-lg max-w-sm animate-delay-200 leading-relaxed">

@@ -55,7 +55,7 @@ export default function Footer() {
                 className="font-display font-900 text-xl text-white"
                 style={{ fontFamily: 'Montserrat', fontWeight: 900 }}
               >
-                EduPro
+                Навык 2.0
               </span>
             </div>
             <p className="text-white/40 text-sm leading-relaxed mb-6 max-w-xs">
@@ -102,7 +102,7 @@ export default function Footer() {
       {/* Bottom */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-2 text-white/30 text-xs">
-          <span>© 2025 EduPro. Все права защищены.</span>
+          <span>© 2025 Навык 2.0. Все права защищены.</span>
           <div className="flex gap-4">
             <button className="hover:text-white transition-colors">Политика конфиденциальности</button>
             <button className="hover:text-white transition-colors">Условия использования</button>

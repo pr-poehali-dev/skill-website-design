@@ -60,7 +60,7 @@ export default function Header() {
           </div>
           <div className="flex flex-col leading-tight">
             <span className="font-display font-800 text-lg text-edu-dark leading-none" style={{ fontFamily: 'Montserrat', fontWeight: 800 }}>
-              EduPro
+              Навык 2.0
             </span>
             <span className="text-xs text-muted-foreground font-medium">Образование будущего</span>
           </div>
